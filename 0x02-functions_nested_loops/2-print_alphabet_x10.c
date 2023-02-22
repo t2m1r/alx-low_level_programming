@@ -1,20 +1,18 @@
 #include "main.h"
 /**
- * main - print alphabetes
+ * print_alphabet_x10 - print alphabets 10 times
  */
 
 void print_alphabet_x10(void)
 {
-	char c = 'a';
+	int ten;
+	char letter;
 
-	for (int i = 0; < 10; i++)
+	for (int ten = 0; ten <= 10; ten++)
 	{
-		while (c <= 'z')
-	
-	{
-	_putchar(c);
-	}
-	c = 'a';
+		for (letter = 'a'; letter <= 'z'; letter++)
+			_putchar(letter);
+
 	_putchar('\n);
 	}
 }
