@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - print_alphabet - print all alphabets in lowers
+ * print_alphabet - print all alphabets in lowers
  */
 
 void print_alphabet(void)
@@ -11,5 +11,5 @@ void print_alphabet(void)
 	for (letter = 'a'; letter <= 'z'; letter++)
 		_putchar(letter);
 
-	_putchar('\n);
+	_putchar('\n');
 }
